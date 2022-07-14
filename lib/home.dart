@@ -6,6 +6,106 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      backgroundColor: Color(0xFFF2F2F6),
+      body: SafeArea(
+        child: ListView(
+            children: [
+              Padding(
+                padding: const EdgeInsets.all(20.0),
+                child: Column(
+                  children: [
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.end,
+                      children: [
+                        IconButton(
+                            onPressed: (){
+
+                            },
+                            icon: Icon(CupertinoIcons.square_arrow_left, size: 20, color: Colors.blueAccent,)
+                        ),
+                        const Text(
+                          "Edit",
+                          style: TextStyle(
+                            fontSize: 15,
+                          ),
+                        )
+                      ],
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      children: [
+                        Text(
+                          "Mail Box",
+                          style: TextStyle(
+                            fontWeight: FontWeight.w700,
+                            fontSize: 30,
+                          ),
+                        )
+                      ],
+                    ),
+                    SizedBox(
+                      height: 10,
+                    ),
+                    ClipRect(
+                      // borderRadius: BorderRadius.circular(10),
+                      child: Container(
+                        padding: EdgeInsets.symmetric(vertical: 8),
+                        color: Colors.white,
+                        child: Column(
+                          children: [
+                            _mainButton(CupertinoIcons.tray, "Inbox")
+                          ],
+                        ),
+                      ),
+                    )
+                  ],
+                )
+              )
+            ]
+        ),
+      ),
+    );
+  }
+  Widget _mainButton(IconData icon, String title){
+    return GestureDetector(
+      child: Padding(
+        padding: EdgeInsets.fromLTRB(15.0, 2.0, 15.0, 0.0),
+        child: Stack(
+          alignment: AlignmentDirectional.centerStart,
+          children: [
+            Row(
+              children: [
+                Icon(
+                    icon,
+                    size: 20,
+                    color: Colors.blueAccent,
+                ),
+                SizedBox(
+                  width: 15,
+                ),
+                Text(
+                    title,
+                    style: TextStyle(fontSize: 15),
+                ),
+              ],
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.end,
+              children: [
+                Icon(
+                  CupertinoIcons.chevron_right,
+                  size: 15,
+                  color: Colors.grey,
+                )
+              ],
+            )
+          ],
+        ),
+      ),
+      onTap: (){
+
+      },
+    );
   }
 }
