@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class HomePage extends StatelessWidget {
   HomePage({Key? key}) : super(key: key);
@@ -20,7 +21,6 @@ class HomePage extends StatelessWidget {
                       children: [
                         IconButton(
                             onPressed: (){
-
                             },
                             icon: Icon(CupertinoIcons.square_arrow_left, size: 20, color: Colors.blueAccent,)
                         ),
@@ -47,18 +47,62 @@ class HomePage extends StatelessWidget {
                     SizedBox(
                       height: 10,
                     ),
-                    ClipRect(
-                      // borderRadius: BorderRadius.circular(10),
+                    ClipRRect(
+                      borderRadius: BorderRadius.circular(10),
                       child: Container(
                         padding: EdgeInsets.symmetric(vertical: 8),
                         color: Colors.white,
                         child: Column(
                           children: [
-                            _mainButton(CupertinoIcons.tray, "Inbox")
+                            _mainButton(CupertinoIcons.tray, "Inbox"),
+                            Divider(indent: 50, color: Colors.grey,),
+                            _mainButton(CupertinoIcons.star, "Starred"),
+                            Divider(indent: 50, color: Colors.grey,),
+                            _mainButton(CupertinoIcons.flag, "Important"),
+
                           ],
                         ),
                       ),
-                    )
+                    ),
+                    SizedBox(
+                      height: 30,
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      children: [
+                        Text(
+                            "Gmail",
+                          style: TextStyle(
+                            fontWeight: FontWeight.w700,
+                            fontSize: 15,
+                          ),
+                        ),
+                      ],
+                    ),
+                    SizedBox(
+                      height: 15,
+                    ),
+                  ClipRRect(
+                    borderRadius: BorderRadius.circular(10),
+                    child: Container(
+                      color: Colors.white,
+                      child: Column(
+                        children: [
+                          _mainButton(CupertinoIcons.doc, "Draft"),
+                          Divider(indent: 50, color: Colors.grey,),
+                          _mainButton(CupertinoIcons.paperplane, "Sent"),
+                          Divider(indent: 50, color: Colors.grey,),
+                          _mainButton(CupertinoIcons.bin_xmark, "Spam"),
+                          Divider(indent: 50, color: Colors.grey,),
+                          _mainButton(CupertinoIcons.delete, "Trash"),
+                          Divider(indent: 50, color: Colors.grey,),
+                          _mainButton(CupertinoIcons.archivebox, "All Mail"),
+                          Divider(indent: 50,color:Colors.grey),
+                          _mainButton(CupertinoIcons.folder, "Featured",)
+                        ],
+                      ),
+                    ),
+                  ),
                   ],
                 )
               )
@@ -104,7 +148,7 @@ class HomePage extends StatelessWidget {
         ),
       ),
       onTap: (){
-
+         // Get.to();
       },
     );
   }
