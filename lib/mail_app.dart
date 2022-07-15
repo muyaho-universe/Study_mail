@@ -1,4 +1,6 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/cupertino.dart';
+
 
 class MailApp extends StatelessWidget {
   const MailApp({Key? key}) : super(key: key);
@@ -9,6 +11,8 @@ class MailApp extends StatelessWidget {
         future: Firebase.initializeApp(),
         builder: (context, snapshot){
           if(snapshot.hasError){
+
+          }
         }
     );
   }

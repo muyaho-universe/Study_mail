@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "581361591838",
+    "project_id": "mail-study",
+    "storage_bucket": "mail-study.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581361591838:android:0a3ff4d8e0812fdb04300f",
+        "android_client_info": {
+          "package_name": "com.example.mail_study"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581361591838-8sgptr8takg215v6chb8c5s7hqhs28mr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mail_study",
+            "certificate_hash": "657238e22a358c134679338d26062a6ef3613f44"
+          }
+        },
+        {
+          "client_id": "581361591838-u8fn92gpk8tdfscde7bile0il4tt1n27.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpxRTZR0OTb7fBRk7FnqVH7hBHkmCs1aM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581361591838-u8fn92gpk8tdfscde7bile0il4tt1n27.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "581361591838-9j9gb22fc305493iialgdvajb5qd86q4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.mailStudy"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
