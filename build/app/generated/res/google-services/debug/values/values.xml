@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">581361591838-u8fn92gpk8tdfscde7bile0il4tt1n27.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">581361591838</string>
+    <string name="google_api_key" translatable="false">AIzaSyCpxRTZR0OTb7fBRk7FnqVH7hBHkmCs1aM</string>
+    <string name="google_app_id" translatable="false">1:581361591838:android:0a3ff4d8e0812fdb04300f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCpxRTZR0OTb7fBRk7FnqVH7hBHkmCs1aM</string>
+    <string name="google_storage_bucket" translatable="false">mail-study.appspot.com</string>
+    <string name="project_id" translatable="false">mail-study</string>
+</resources>

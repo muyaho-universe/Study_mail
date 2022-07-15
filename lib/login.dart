@@ -6,6 +6,8 @@ import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
+import 'home.dart';
+
 
 class Login extends StatefulWidget {
   const Login({Key? key}) : super(key: key);
@@ -70,7 +72,7 @@ class _LoginState extends State<Login> {
                       });
                     }
                     if(user != null){
-                      Get.to(Login());
+                      Get.to(HomePage());
                     }
                   }
                 },

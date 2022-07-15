@@ -1,3 +1,13 @@
 # This is a generated file; do not edit or check into version control.
+cloud_firestore=C:\\work\\flutter_windows_2.8.1-stable\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\cloud_firestore-3.3.0\\
+cloud_firestore_web=C:\\work\\flutter_windows_2.8.1-stable\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\cloud_firestore_web-2.7.0\\
+cloud_functions=C:\\work\\flutter_windows_2.8.1-stable\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\cloud_functions-3.3.2\\
+cloud_functions_web=C:\\work\\flutter_windows_2.8.1-stable\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\cloud_functions_web-4.3.0\\
+firebase_auth=C:\\work\\flutter_windows_2.8.1-stable\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_auth-3.4.2\\
+firebase_auth_web=C:\\work\\flutter_windows_2.8.1-stable\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_auth_web-4.0.0\\
 firebase_core=C:\\work\\flutter_windows_2.8.1-stable\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_core-1.19.2\\
 firebase_core_web=C:\\work\\flutter_windows_2.8.1-stable\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_core_web-1.7.0\\
+google_sign_in=C:\\work\\flutter_windows_2.8.1-stable\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\google_sign_in-5.4.0\\
+google_sign_in_android=C:\\work\\flutter_windows_2.8.1-stable\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\google_sign_in_android-6.0.1\\
+google_sign_in_ios=C:\\work\\flutter_windows_2.8.1-stable\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\google_sign_in_ios-5.4.0\\
+google_sign_in_web=C:\\work\\flutter_windows_2.8.1-stable\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\google_sign_in_web-0.10.2\\
