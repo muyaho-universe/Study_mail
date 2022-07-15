@@ -7,7 +7,9 @@ class MailApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return FutureBuilder(
         future: Firebase.initializeApp(),
-        builder: (context, snapshot),
+        builder: (context, snapshot){
+          if(snapshot.hasError){
+        }
     );
   }
 }
