@@ -56,6 +56,7 @@ class _LoginState extends State<Login> {
                   if(user != null){
                     int i;
                     querySnapshot = await database.get();
+                    print("hello");
 
                     for(i = 0; i < querySnapshot.docs.length; i++){
                       var a = querySnapshot.docs[i];
@@ -72,8 +73,9 @@ class _LoginState extends State<Login> {
                       });
                     }
                     if(user != null){
-                      Get.to(HomePage());
+                      Get.to(Login());
                     }
+                    Get.to(HomePage());
                   }
                 },
                 child: Row(
