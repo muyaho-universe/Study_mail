@@ -150,7 +150,7 @@ class HomePage extends StatelessWidget {
         ),
       ),
       onTap: (){
-         Get.to(MailScreen(title));
+         Get.to(() => MailScreen(title));
       },
     );
   }

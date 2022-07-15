@@ -2,16 +2,19 @@ import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:get/instance_manager.dart';
 import 'package:get/get.dart';
+import 'package:mail_study/mail_app.dart';
 import 'package:mail_study/mail_list/mail_screen.dart';
 
 import 'home.dart';
 
 void main() async{
+  WidgetsFlutterBinding.ensureInitialized();
+  // await Firebase.initializeApp();
   runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+  const MyApp({super.key});
 
   // This widget is the root of your application.
   @override
@@ -27,7 +30,7 @@ class MyApp extends StatelessWidget {
         //     page: ()=> MailScreen()
         // ),
       ],
-      home: HomePage(),
+      home: MailApp(),
     );
   }
 }
