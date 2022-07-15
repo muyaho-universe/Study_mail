@@ -3,6 +3,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:mail_study/home.dart';
 
+import 'login.dart';
+
 
 class MailApp extends StatelessWidget {
   const MailApp({Key? key}) : super(key: key);
@@ -18,7 +20,7 @@ class MailApp extends StatelessWidget {
             );
           }
           if(snapshot.connectionState == ConnectionState.done){
-            return HomePage();
+            return Login();
           }
           return const CircularProgressIndicator();
         }
